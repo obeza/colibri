@@ -1,0 +1,23 @@
+{
+  "name": "obez",
+  "version": "0.0.1",
+  "description": "Creer une liste de favoris de fichier à télécharger.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fichier",
+    "favoris"
+  ],
+  "author": "Olivier Bezaudin <o.bezaudin@gmail.com> (https://github.com/obeza)",
+  "license": "ISC",
+  "preferGlobal": true,
+  "bin": {
+    "obez": "index.js"
+  },
+  "dependencies": {
+    "cli-storage": "0.0.1",
+    "download": "^4.1.4"
+  }
+}
